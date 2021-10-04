@@ -1,6 +1,6 @@
 # Project Name: Skillup Training
 
-This project live at netlify in [This Link](https://arrange-a-concert-ruhul.netlify.app/).
+This project live at netlify in [This Link](https://skillup-training-ruhul.netlify.app/).
 
 ## Used Languages
 
