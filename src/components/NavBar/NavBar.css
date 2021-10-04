@@ -1,0 +1,26 @@
+.nav-bar {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: #1d304d;
+  height: 150px;
+  padding: 0 70px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  z-index: 100;
+}
+.logo img {
+  width: 200px;
+}
+.nav-menu .item {
+  margin-right: 30px;
+  text-decoration: none;
+  color: lightblue;
+  font-size: 18px;
+  padding-bottom: 5px;
+  /* transition: 0.5s; */
+}
+.nav-menu .item:hover {
+  border-bottom: 2px solid orange;
+  color: aliceblue;
+}

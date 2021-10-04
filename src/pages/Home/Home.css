@@ -1,0 +1,12 @@
+.home {
+  background-color: #f6f9ff;
+}
+.all-courses-btn {
+  display: inline;
+}
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(255, 123, 0);
+  margin: 0 auto;
+}
