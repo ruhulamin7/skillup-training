@@ -17,7 +17,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-address">
                             <address>
-                                <p>Address: 795 South Park Avenue, CA 94107</p>
+                                <p>Address: 3/D, Asad Avenew, Mohammadpur, Dhaka-1200</p>
                                 <p>Email: enquery@domain.com</p>
                                 <p>Phone: 011-345-7676</p>
                             </address>
@@ -25,21 +25,21 @@ const Footer = () => {
                     </h3>
                     <div className="col-lg-4 col-md-4 col-sm-12">
                         <h3 className="mb-4 text-white">USEFUL LINKS</h3>
-                        <div className="d-flex usefull-links">
-                            <ul>
-                                <li><a href="#">General info</a></li>
-                                <li><a href="#">Help Center</a></li>
-                                <li><a href="#">Our Cervies</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Online Support</a></li>
+                        <div className="usefull-links">
+                            <ul className="ul-left">
+                                <li><a href="#"><i class="fas fa-angle-right"></i> General info</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Help Center</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Our Cervies</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Online Support</a></li>
 
                             </ul>
-                            <ul>
-                                <li><a href="#">Become a Teacher</a></li>
-                                <li><a href="#">Maintenance</a></li>
-                                <li><a href="#">Language Packs</a></li>
-                                <li><a href="#">LearnPress</a></li>
-                                <li><a href="#">Release Status</a></li>
+                            <ul className="ul-right">
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Become a Teacher</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Maintenance</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Language Packs</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> LearnPress</a></li>
+                                <li><a href="#"><i class="fas fa-angle-right"></i> Release Status</a></li>
                             </ul>
                         </div>
 

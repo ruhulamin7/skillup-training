@@ -5,11 +5,16 @@
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/banner.jpg");
+    url("../../images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 80vh;
+  height: 100vh;
   background-repeat: no-repeat;
+}
+.hero-slogan {
+  background-color: rgba(0, 0, 0, 0.199);
+  padding: 10px 20px;
+  border-radius: 50px;
 }
 .hero-text {
   text-align: center;
@@ -22,6 +27,6 @@
 .quote {
   font-family: "Bonheur Royale", cursive;
   font-size: 40px;
-  color: lightgray;
+  color: rgba(211, 211, 211, 0.849);
   line-height: 40px;
 }

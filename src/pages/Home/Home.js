@@ -19,7 +19,6 @@ const Home = () => {
             <h2 className="text-center pt-5 my-3">Our Popular Courses</h2>
             <div className="underline"></div>
             <Container className="card-container m-5 row">
-
                 {
                     courses.slice(0, 4).map(course => <Course course={course}></Course>)
                 }
