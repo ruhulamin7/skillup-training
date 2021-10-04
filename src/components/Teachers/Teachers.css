@@ -1,0 +1,14 @@
+.teacher-underline {
+  background-color: orange;
+  width: 50px;
+  height: 3px;
+}
+.teacher {
+  border: 2px solid orange;
+  margin: 55px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.teacher img {
+  padding: 10px;
+  border-radius: 10px;
+}

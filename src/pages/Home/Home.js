@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Container, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Achievement from '../../components/Achievement/Achievement';
 import Course from '../../components/Course/Course';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
+import Teachers from '../../components/Teachers/Teachers';
 import './Home.css'
 
 const Home = () => {
@@ -16,9 +18,9 @@ const Home = () => {
     return (
         <div className="home ">
             <Header></Header>
-            <h2 className="text-center pt-5 my-3">Our Popular Courses</h2>
+            <h2 className="text-center pt-5 ">Our Popular Courses</h2>
             <div className="underline"></div>
-            <Container className="card-container m-5 row">
+            <Container className="card-container row mx-5">
                 {
                     courses.slice(0, 4).map(course => <Course course={course}></Course>)
                 }
@@ -28,6 +30,10 @@ const Home = () => {
                     <button className="btn btn-warning mb-5">Our All Courses</button>
                 </Link>
             </Container>
+
+            <Teachers></Teachers>
+
+            <Achievement></Achievement>
 
             <Footer></Footer>
 

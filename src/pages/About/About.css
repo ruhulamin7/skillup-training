@@ -4,20 +4,8 @@
 .about-image img {
   width: 100%;
 }
-.achievement {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../images/happy-client.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  background-attachment: fixed;
-  font-family: "Quicksand", sans-serif;
-  /* opacity: 0.75; */
-}
-.achievement h1 {
-  font-size: 70px;
-}
-.achievement p {
-  color: rgb(182, 182, 182);
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

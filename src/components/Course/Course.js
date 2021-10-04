@@ -14,7 +14,7 @@ const Course = (props) => {
     const { name, description, rating, reviews, img, duration } = props.course
     return (
 
-        <Card className="col-lg-3 col-md-6 col-sm-12 course m-5 ">
+        <Card className="col-lg-3 col-md-6 col-sm-12 course m-5">
             <Card.Img variant="top" className="p-3  course-img" src={img} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>

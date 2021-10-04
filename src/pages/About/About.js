@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import Achievement from '../../components/Achievement/Achievement';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import aboutImg from '../../images/about.jpg'
@@ -15,10 +16,10 @@ const About = () => {
         <div>
             <NavBar></NavBar>
             <Container>
-                <div className="about-us my-5">
-                    <div className="row">
+                <div className="about-us my-5 pt-5">
+                    <div className="row about-container">
                         <div className="col-lg-6 col-md-6 col-sm-12">
-                            <h2>Welcome to skillup</h2>
+                            <h2 className="my-5">Welcome to skillup</h2>
                             <div>
                                 <p>
                                     Since its inauguration in 1997, skillup a leading and promising Internet service provider (ISP) in Bangladesh, the Company is continuously earning a reputation for fast, stable Internet access and innovative Internet solutions for our valued residential and corporate customers.
@@ -26,9 +27,7 @@ const About = () => {
                                 <p>
                                     skillup has deployed a high-quality Network infrastructure backbone that consists of 3000+ km wide optical fibre and Metropolitan Area Network (MAN) around the capital city(Dhaka) and all divisions (Chittagong, Sylhet, Khulna, Barishal, Rajshahi, Rangpur, Maymanshing) in the country. That can support a wide range of convergent services like fast broadband access, voice, data, triple play, and various connectivity solutions such as Virtual Private Networks (VPN).
                                 </p>
-                                <p>
-                                    skillup has also evolved into full-range web-based software development and website designing, Web hosting, Email marketing, professional IT training, and IT consultancy. skillup is always ready to give you genuine facilities and the best value privileges.
-                                </p>
+
 
                                 <ul className="about-list">
                                     <li> <i class="fas fa-check"></i> 2 Glossaries for difficult terms & acronyms</li>
@@ -49,33 +48,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
-            <div className="achievement my-5">
-                <Container>
-                    <div className="row py-5">
-                        <div className="col-md-3">
-                            <h1 className="text-warning">23</h1>
-                            <h4 className="text-white">Year Of Experience</h4>
-                            <p className="achievement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus autem corporis! Magni assumenda aut velit est iure modi optio!</p>
-                        </div>
-                        <div className="col-md-3">
-                            <h1 className="text-warning">59</h1>
-                            <h4 className="text-white">Numbers Engineers</h4>
-                            <p className="achievement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus autem corporis! Magni assumenda aut velit est iure modi optio!</p>
-                        </div>
-                        <div className="col-md-3">
-                            <h1 className="text-warning">15</h1>
-                            <h4 className="text-white">Professional Awards</h4>
-                            <p className="achievement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus autem corporis! Magni assumenda aut velit est iure modi optio!</p>
-                        </div>
-                        <div className="col-md-3">
-                            <h1 className="text-warning">100%</h1>
-                            <h4 className="text-white">Satisfied Clients</h4>
-                            <p className="achievement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellendus autem corporis! Magni assumenda aut velit est iure modi optio!</p>
-                        </div>
-
-                    </div>
-                </Container>
-            </div>
+            <Achievement></Achievement>
 
             <Footer></Footer>
 
