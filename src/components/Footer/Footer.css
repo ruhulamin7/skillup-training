@@ -3,6 +3,11 @@ footer {
   text-align: center;
   color: #999999;
 }
+.footer-container {
+  text-align: left;
+  display: flex;
+  padding: 50px;
+}
 .footer-logo {
   width: 150px;
 }
@@ -10,18 +15,12 @@ footer {
   font-size: 14px;
   text-align: left;
 }
-.footer-container {
-  text-align: left;
-  display: flex;
-  padding: 50px;
-}
 .usefull-links {
   display: flex;
 }
 .usefull-links .ul-right {
   margin-left: 40px;
 }
-
 .usefull-links ul {
   padding: 0;
 }

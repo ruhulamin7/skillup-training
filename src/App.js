@@ -4,6 +4,7 @@ import Home from './pages/Home/Home'
 import Courses from './pages/Courses/Courses'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
+import Login from './pages/Login/Login';
 import NotFound from './pages/NotFound/NotFound'
 import {
   BrowserRouter as Router,
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact></Contact>
+        </Route>
+        <Route path="/login">
+          <Login></Login>
         </Route>
         <Route exact path="*">
           <NotFound></NotFound>

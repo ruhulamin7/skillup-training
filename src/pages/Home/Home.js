@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Container, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Achievement from '../../components/Achievement/Achievement';
 import Course from '../../components/Course/Course';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
-import Teachers from '../../components/Teachers/Teachers';
 import './Home.css'
 
 const Home = () => {
@@ -22,7 +21,11 @@ const Home = () => {
             <div className="underline"></div>
             <Container className="card-container my-5">
                 {
-                    courses.slice(0, 4).map(course => <Course course={course}></Course>)
+                    courses.slice(0, 4).map(course => <Course
+                        key={course.id}
+                        course={course}>
+
+                    </Course>)
                 }
             </Container>
             <Container className="text-center">
@@ -34,7 +37,6 @@ const Home = () => {
             <Achievement></Achievement>
 
             <Footer></Footer>
-
         </div>
     );
 };

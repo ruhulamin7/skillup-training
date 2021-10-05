@@ -1,7 +1,6 @@
 .home {
   background-color: #f6f9ff;
 }
-
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -17,9 +16,7 @@
   margin: 0 auto;
 }
 
-/* responsive for small devices */
-
-/* responsive for Medium devices  */
+/* responsive for small devices  */
 @media (max-width: 768px) {
   .card-container {
     display: grid;
@@ -28,7 +25,7 @@
   }
 }
 
-/* responsive for Large devices  */
+/* responsive for medium devices  */
 @media (max-width: 992px) {
   .card-container {
     display: grid;

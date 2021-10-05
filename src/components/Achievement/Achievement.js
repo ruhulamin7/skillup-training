@@ -27,7 +27,6 @@ const Achievement = () => {
                         <h4 className="text-white my-4">Satisfied Clients</h4>
                         <p className="achievement-text">Our clients and students are satisfied with us. We are proud to be a part of your nice learning journey!</p>
                     </div>
-
                 </div>
             </Container>
         </div>

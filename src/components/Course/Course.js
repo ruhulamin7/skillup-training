@@ -4,13 +4,12 @@ import './Course.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-
-
+// import font awesome icon 
 const clock = <FontAwesomeIcon icon={faClock} />
 const star = <FontAwesomeIcon icon={faStar} />
 
-
 const Course = (props) => {
+    // destructuring course object
     const { name, description, rating, reviews, img, duration } = props.course
 
     return (
@@ -22,7 +21,6 @@ const Course = (props) => {
                 <Card.Text className="description">
                     {description.slice(0, 100)}
                 </Card.Text>
-
             </Card.Body>
             <ListGroup className="list-group-flush">
                 <ListGroupItem className="d-flex course-duration">
@@ -33,7 +31,6 @@ const Course = (props) => {
                 <ListGroupItem><button className="btn btn-success buy-now">Buy Now</button> </ListGroupItem>
             </ListGroup>
         </Card >
-
     );
 };
 

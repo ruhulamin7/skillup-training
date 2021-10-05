@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Contact.css'
-import { ButtonGroup, Button, Container, Form } from 'react-bootstrap';
+import { Button, Container, Form } from 'react-bootstrap';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import contactImg from '../../images/undraw_Mail_re_duel.svg'

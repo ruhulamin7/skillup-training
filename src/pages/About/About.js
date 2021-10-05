@@ -1,15 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Achievement from '../../components/Achievement/Achievement';
 import Footer from '../../components/Footer/Footer';
 import NavBar from '../../components/NavBar/NavBar';
 import Teachers from '../../components/Teachers/Teachers';
 import aboutImg from '../../images/about.jpg'
-import teacher1 from '../../images/Teacher1.jpg'
-import teacher2 from '../../images/teacher2.jpg'
-import teacher3 from '../../images/Teacher3.jpg'
-import teacher4 from '../../images/Teacher4.jpg'
-
 import './About.css'
 
 const About = () => {
@@ -22,7 +16,7 @@ const About = () => {
                 <div className="about-us mb-5">
                     <div className="row about-container">
                         <div className="col-lg-6 col-md-12 col-12">
-                            <h2 className="my-5">Welcome to skillup</h2>
+                            <h2 className="mb-5">Welcome to skillup</h2>
                             <div>
                                 <p>
                                     Since its inauguration in 1997, skillup Training a leading and promising Internet service provider (ISP) in Bangladesh, the Company is continuously earning a reputation for fast, stable Internet access and innovative Internet solutions for our valued residential and corporate customers.
@@ -33,15 +27,12 @@ const About = () => {
                                 <p>
                                     Skillup Training has also evolved into full-range web-based software development and website designing, Web hosting, Email marketing, professional IT training, and IT consultancy. Triangle is always ready to give you genuine facilities and the best value privileges.
                                 </p>
-
-
                                 <ul className="about-list">
-                                    <li> <i class="fas fa-check"></i> 2 Glossaries for difficult terms & acronyms</li>
-                                    <li><i class="fas fa-check"></i> 25 hours of High Quality e-Learning content</li>
-                                    <li><i class="fas fa-check"></i> 72 end of chapter quizzes</li>
-                                    <li><i class="fas fa-check"></i> 30 PDUs Offered</li>
-                                    <li><i class="fas fa-check"></i> Collection of 47 six sigma tools for hands-on practice</li>
-
+                                    <li> <i className="fas fa-check"></i> 2 Glossaries for difficult terms & acronyms</li>
+                                    <li><i className="fas fa-check"></i> 25 hours of High Quality e-Learning content</li>
+                                    <li><i className="fas fa-check"></i> 72 end of chapter quizzes</li>
+                                    <li><i className="fas fa-check"></i> 30 PDUs Offered</li>
+                                    <li><i className="fas fa-check"></i> Collection of 47 six sigma tools for hands-on practice</li>
                                 </ul>
                             </div>
                         </div>
@@ -49,16 +40,12 @@ const About = () => {
                             <div className="about-image">
                                 <img src={aboutImg} alt="" />
                             </div>
-
                         </div>
                     </div>
                 </div>
             </Container>
             <Teachers></Teachers>
-
-
             <Footer></Footer>
-
         </div>
     );
 };

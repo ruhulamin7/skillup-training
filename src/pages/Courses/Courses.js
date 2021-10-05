@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Course from '../../components/Course/Course';
 import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
 import NavBar from '../../components/NavBar/NavBar';
 
 const Courses = () => {
@@ -23,7 +22,10 @@ const Courses = () => {
                 <div className="underline"></div>
                 <Container className="course-container my-5">
                     {
-                        courses.map(course => <Course course={course}></Course>)
+                        courses.map(course => <Course
+                            key={course.id}
+                            course={course}>
+                        </Course>)
                     }
                 </Container>
             </div>
