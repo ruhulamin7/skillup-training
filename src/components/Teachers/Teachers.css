@@ -3,12 +3,33 @@
   width: 50px;
   height: 3px;
 }
+.teachers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+}
 .teacher {
   border: 2px solid orange;
-  margin: 55px;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
 }
 .teacher img {
-  padding: 10px;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* responsive for small devices */
+@media (max-width: 768px) {
+  .teachers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .teachers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
 }

@@ -9,18 +9,17 @@ import teacher4 from '../../images/Teacher4.jpg'
 const Teachers = () => {
     return (
         <Container>
-
-            <h1 className="my-5 ">OUR TEACHER</h1>
+            <h3 className="my-5 ">OUR TEACHER</h3>
             <div className="teacher-underline"></div>
-            <div className="row my-5">
-                <div className="col-md-3 teacher">
+            <div className="teachers my-5">
+                <div className="teacher">
                     <img src={teacher1} alt="" className="img-fluid" />
                     <h4>Sarah Johnson</h4>
                     <p>Graphich Designer</p>
                     <p><i class="fas fa-envelope"></i> Email: sarah@example.com</p>
                     <p><i class="fas fa-phone"></i> Phone: 011-322-1234</p>
                 </div>
-                <div className="col-md-3 teacher">
+                <div className="teacher">
                     <img src={teacher2} alt="" className="img-fluid" />
                     <h4>Rebeca adams</h4>
                     <p>Web Designer</p>
@@ -28,7 +27,7 @@ const Teachers = () => {
                     <p><i class="fas fa-phone"></i> Phone: 011-352-12349</p>
 
                 </div>
-                <div className="col-md-3 teacher">
+                <div className=" teacher">
                     <img src={teacher3} alt="" className="img-fluid" />
                     <h4>Leonardo Bunucci</h4>
                     <p>Digital Marketing Expert</p>
@@ -36,15 +35,12 @@ const Teachers = () => {
                     <p><i class="fas fa-phone"></i> Phone: 011-322-1231</p>
 
                 </div>
-                <div className="col-md-3 teacher">
+                <div className=" teacher">
                     <img src={teacher4} alt="" className="img-fluid" />
                     <h4>Michle James</h4>
                     <p>Microsoft Excel Expert</p>
                     <p><i class="fas fa-envelope"></i> Email: michle@example.com</p>
                     <p><i class="fas fa-phone"></i> Phone: 011-372-1534</p>
-
-
-
                 </div>
             </div>
 

@@ -1,3 +1,4 @@
+import './Courses.css'
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Course from '../../components/Course/Course';
@@ -16,14 +17,16 @@ const Courses = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <h2 className="text-center pt-5 my-3">Our All Courses</h2>
-            <div className="underline"></div>
 
-            <Container className="card-container m-5 row">
-                {
-                    courses.map(course => <Course course={course}></Course>)
-                }
-            </Container>
+            <div className="courses">
+                <h2 className="text-center pt-5 my-3">Our All Courses</h2>
+                <div className="underline"></div>
+                <Container className="course-container my-5">
+                    {
+                        courses.map(course => <Course course={course}></Course>)
+                    }
+                </Container>
+            </div>
 
             <Footer></Footer>
         </div>

@@ -12,9 +12,9 @@ const star = <FontAwesomeIcon icon={faStar} />
 
 const Course = (props) => {
     const { name, description, rating, reviews, img, duration } = props.course
-    return (
 
-        <Card className="col-lg-3 col-md-6 col-sm-12 course m-5">
+    return (
+        <Card className="course ">
             <Card.Img variant="top" className="p-3  course-img" src={img} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
@@ -32,7 +32,6 @@ const Course = (props) => {
                 </ListGroupItem>
                 <ListGroupItem><button className="btn btn-success buy-now">Buy Now</button> </ListGroupItem>
             </ListGroup>
-
         </Card >
 
     );

@@ -1,36 +1,33 @@
-.home {
+.courses {
   background-color: #f6f9ff;
 }
-
-.card-container {
+.course-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 50px;
 }
-.all-courses-btn {
-  display: inline;
-}
-.underline {
-  width: 100px;
-  height: 3px;
-  background-color: rgb(255, 123, 0);
-  margin: 0 auto;
-}
 
 /* responsive for small devices */
+@media (max-width: 576px) {
+  .course-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 50px; */
+  }
+}
 
 /* responsive for Medium devices  */
 @media (max-width: 768px) {
-  .card-container {
+  .course-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
   }
 }
 
 /* responsive for Large devices  */
 @media (max-width: 992px) {
-  .card-container {
+  .course-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;

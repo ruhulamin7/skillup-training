@@ -20,7 +20,7 @@ const Home = () => {
             <Header></Header>
             <h2 className="text-center pt-5 ">Our Popular Courses</h2>
             <div className="underline"></div>
-            <Container className="card-container row mx-5">
+            <Container className="card-container my-5">
                 {
                     courses.slice(0, 4).map(course => <Course course={course}></Course>)
                 }
@@ -30,8 +30,6 @@ const Home = () => {
                     <button className="btn btn-warning mb-5">Our All Courses</button>
                 </Link>
             </Container>
-
-            <Teachers></Teachers>
 
             <Achievement></Achievement>
 

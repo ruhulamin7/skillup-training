@@ -1,11 +1,23 @@
+.about-us {
+  background-color: #f6f9ff;
+  padding: 50px;
+}
 .about-list {
   list-style: none;
 }
 .about-image img {
   width: 100%;
+  padding: 15px;
+  border: 2px solid orange;
+  margin-left: 30px;
 }
 .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.about-container p {
+  font-size: 18px;
+  color: gray;
+  text-align: justify;
 }

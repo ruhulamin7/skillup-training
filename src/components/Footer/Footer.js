@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import logo from '../../images/logo.png'
+import logo from '../../images/logo-1.png'
 import { Container } from 'react-bootstrap';
 import postImage1 from '../../images/1.jpg';
 import postImage2 from '../../images/2.jpg'
