@@ -13,4 +13,4 @@ This project live at netlify in [This Link](https://skillup-training-ruhul.netli
 
 ## Project Details
 
-This is a educational training center's website. There are four pages, home page, courses page, about us and contact us page. Every page has some teaching related content except contact us page.
+This is a educational training center's website. There are four pages in this web site, these are home page, courses page, about us and contact us page. Every page has some teaching related content except contact us and login page.
